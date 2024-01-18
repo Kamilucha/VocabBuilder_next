@@ -17,3 +17,12 @@
   color: #555;
   cursor: pointer;
 }
+
+/* CATEGORIES STYLES*/
+
+.select_categories {
+  border-radius: 15px;
+  border: 1px solid rgba(18, 20, 23, 0.1);
+  padding: 12px 24px;
+  background-color: inherit;
+}
