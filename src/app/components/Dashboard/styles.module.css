@@ -1,0 +1,4 @@
+.filters_wrapper {
+  display: flex;
+  gap: 8px;
+}

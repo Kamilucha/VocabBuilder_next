@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Categories from "../Filters/Categories";
 import FindFilterForm from "../Filters/FindFilter";
+import styles from "./styles.module.css";
 
 export default function Dashboard() {
   const [selectedCategory, setSelectedCategory] = useState<string>("");
@@ -28,12 +29,13 @@ export default function Dashboard() {
   };
   return (
     <>
-      <FindFilterForm onSearch={handleSearch}></FindFilterForm>
-      <Categories
-        categories={categories}
-        onSelectCategory={handleSelectCategory}
-      ></Categories>
-      {selectedCategory && <p>Selected Category: {selectedCategory}</p>}
+      <div className={styles.filters_wrapper}>
+        <FindFilterForm onSearch={handleSearch}></FindFilterForm>
+        <Categories
+          categories={categories}
+          onSelectCategory={handleSelectCategory}
+        ></Categories>
+      </div>
     </>
   );
 }
