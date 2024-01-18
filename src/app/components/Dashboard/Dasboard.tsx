@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Categories from "../Filters/Categories";
 import FindFilterForm from "../Filters/FindFilter";
+import { RedirectList } from "../RedirectList/RedirectList";
 import styles from "./styles.module.css";
 
 export default function Dashboard() {
@@ -36,6 +37,7 @@ export default function Dashboard() {
           onSelectCategory={handleSelectCategory}
         ></Categories>
       </div>
+      <RedirectList></RedirectList>
     </>
   );
 }

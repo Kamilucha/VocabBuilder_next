@@ -4,9 +4,9 @@ import { useState } from "react";
 import styles from "./styles.module.css";
 import FindIcon from "./svg/FindIcon";
 
-interface SearchFormProps {
+type SearchFormProps = {
   onSearch: (query: string) => void;
-}
+};
 
 const FindFilterForm: React.FC<SearchFormProps> = ({ onSearch }) => {
   const [searchQuery, setSearchQuery] = useState("");

@@ -10,7 +10,7 @@ const TheHeader = () => {
     <header>
       <Logo />
       <div className={styles.navigation}>
-        <Link href="/">Home</Link>
+        {/* <Link href="/">Home</Link> */}
         <Link href="/dictionary">Dictionary</Link>
         <Link href="/recommend">Recommend</Link>
         <Link href="/training">Training</Link>
