@@ -27,6 +27,7 @@ body {
 body {
   /* color: rgb(var(--foreground-rgb)); */
   background: var(--light-grey);
+  color: var(--black);
 }
 
 header {
