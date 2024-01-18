@@ -1,7 +1,7 @@
 "use client";
 
 import Dashboard from "../components/Dashboard/Dasboard";
-// import FindFilterForm from "../components/Filters/FindFilter";
+import styles from "../page.module.css";
 
 export default function Dictionary() {
   // const handleSearch = (query: string) => {
@@ -10,9 +10,11 @@ export default function Dictionary() {
 
   return (
     <>
-      <h1>Dictionary page</h1>
-      <Dashboard></Dashboard>
-      {/* <FindFilterForm onSearch={handleSearch}></FindFilterForm> */}
+      <div className={styles.container}>
+        <h1>Dictionary page</h1>
+        <Dashboard></Dashboard>
+        {/* <FindFilterForm onSearch={handleSearch}></FindFilterForm> */}
+      </div>
     </>
   );
 }

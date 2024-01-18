@@ -30,14 +30,16 @@ export default function Dashboard() {
   };
   return (
     <>
-      <div className={styles.filters_wrapper}>
-        <FindFilterForm onSearch={handleSearch}></FindFilterForm>
-        <Categories
-          categories={categories}
-          onSelectCategory={handleSelectCategory}
-        ></Categories>
+      <div className={styles.dashboard_wrapper}>
+        <div className={styles.filters_wrapper}>
+          <FindFilterForm onSearch={handleSearch}></FindFilterForm>
+          <Categories
+            categories={categories}
+            onSelectCategory={handleSelectCategory}
+          ></Categories>
+        </div>
+        <RedirectList></RedirectList>
       </div>
-      <RedirectList></RedirectList>
     </>
   );
 }

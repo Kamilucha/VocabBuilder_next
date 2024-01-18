@@ -1,6 +1,7 @@
 "use client";
 
 import Dashboard from "../components/Dashboard/Dasboard";
+import styles from "../page.module.css";
 
 // import FindFilterForm from "../components/Filters/FindFilter";
 
@@ -10,9 +11,11 @@ export default function Training() {
   // };
   return (
     <>
-      <h1>Training page</h1>
-      <Dashboard></Dashboard>
-      {/* <FindFilterForm onSearch={handleSearch}></FindFilterForm> */}
+      <div className={styles.container}>
+        <h1>Training page</h1>
+        <Dashboard></Dashboard>
+        {/* <FindFilterForm onSearch={handleSearch}></FindFilterForm> */}
+      </div>
     </>
   );
 }
