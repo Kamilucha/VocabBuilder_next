@@ -1,11 +1,4 @@
-:root {
-  /*custom root*/
-  --black: #000000;
-  --dark: #121417;
-  --accent-color: #85aa9f;
-  --light-grey: #f8f8f8;
-  --white: #fff;
-}
+@import "variables";
 
 * {
   box-sizing: border-box;
@@ -20,12 +13,12 @@ body {
 }
 
 body {
-  background: var(--light-grey);
-  color: var(--black);
+  background: $LIGHT-GREY;
+  color: $DARK;
 }
 
 header {
-  background-color: var(--white);
+  background-color: $WHITE;
   padding: 20px 100px;
   text-align: center;
   display: flex;
@@ -34,7 +27,7 @@ header {
 }
 
 header > a {
-  color: var(--black);
+  color: $BLACK;
   text-decoration: none;
   padding: 0 1rem;
 }
@@ -47,7 +40,7 @@ header > a:hover {
   width: 100%;
 
   border-radius: 15px;
-  background: var(--accent-color);
+  background: $ACCENT-COLOR;
 }
 
 a {
