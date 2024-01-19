@@ -1,7 +1,7 @@
 "use client";
 
 import { ChangeEvent } from "react";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
 type CategorySelectProps = {
   categories: string[];

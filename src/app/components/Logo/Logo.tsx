@@ -1,5 +1,5 @@
 import LogoSvg from "../TheHeader/svg/LogoSvg";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
 export const Logo = () => {
   return (

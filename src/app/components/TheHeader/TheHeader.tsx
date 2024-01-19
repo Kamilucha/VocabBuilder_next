@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Logo } from "../Logo/Logo";
 import UserDesc from "../UserDesc/UserDesc";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 
 const TheHeader = () => {
   return (
