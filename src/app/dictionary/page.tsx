@@ -13,7 +13,6 @@ export default function Dictionary() {
       <div className={styles.container}>
         <h1>Dictionary page</h1>
         <Dashboard></Dashboard>
-        {/* <FindFilterForm onSearch={handleSearch}></FindFilterForm> */}
       </div>
     </>
   );
