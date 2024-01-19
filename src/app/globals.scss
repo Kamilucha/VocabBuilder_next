@@ -29,18 +29,6 @@ header {
     color: $BLACK;
     text-decoration: none;
     padding: 0 1rem;
-
-    &:hover {
-      display: flex;
-      padding: 12px 20px;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-      width: 100%;
-
-      border-radius: 15px;
-      background: $ACCENT-COLOR;
-    }
   }
 }
 
