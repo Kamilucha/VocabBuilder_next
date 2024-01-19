@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import styles from "./styles.module.css";
+import styles from "./styles.module.scss";
 import FindIcon from "./svg/FindIcon";
 
 type SearchFormProps = {

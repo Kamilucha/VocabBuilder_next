@@ -1,0 +1,30 @@
+@import "../../mixins";
+@import "../../variables";
+
+.navigation {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    color: black;
+    display: flex;
+    gap: 8px;
+  }
+
+  .link {
+    padding: 12px 20px;
+    color: #121417;
+    font-family: "MacPaw Fixel Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    &.active {
+      color: red;
+    }
+  }
+
+
+}
