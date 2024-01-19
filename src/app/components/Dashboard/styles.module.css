@@ -1,6 +1,7 @@
 .filters_wrapper {
   display: flex;
   gap: 8px;
+  margin-right: auto;
 }
 
 .dashboard_wrapper {
